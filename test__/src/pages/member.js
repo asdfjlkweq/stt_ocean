@@ -3,6 +3,7 @@ import CheckList from "../component/CheckList";
 import Notice from "../component/Notice";
 import SpeechToText from "../component/SpeechToText";
 import logo from "../asset/microphone.png";
+import UserText from "../component/UserText";
 
 const Client = () => {
   const [click, setClick] = useState(false);
@@ -34,7 +35,9 @@ const Client = () => {
           justifyContent: "space-between",
         }}
       >
-        <CheckList />
+        {/* <CheckList /> */}
+        <UserText />
+
         <button
           style={{
             alignSelf: "center",
