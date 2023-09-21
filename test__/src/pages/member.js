@@ -11,7 +11,7 @@ const Client = () => {
   useEffect(() => {
     setTimeout(() => {
       setShowNotice(false);
-    }, 5000);
+    }, 10000);
   });
 
   return (

@@ -38,7 +38,7 @@ const CheckList = () => {
             style={{
               textDecoration: item.checked ? "line-through" : "none",
               color: item.checked ? "grey" : "white",
-              fontSize: "50px",
+              fontSize: "60px",
             }}
           >
             {item.text}
